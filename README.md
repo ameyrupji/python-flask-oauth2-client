@@ -2,6 +2,22 @@
 
 Sample OAuth 2.0 Client using Flask.
 
+Server: https://github.com/ameyrupji/python-flask-oauth2-server
+
+You will need to create the Client with the following configurations: 
+```
+{
+    "client_name": "127.0.0.1:5001", 
+    "client_uri": "http://127.0.0.1:5001/", 
+    "grant_types": ["authorization_code", "password"], 
+    "redirect_uris": ["http://127.0.0.1:5001/auth"], 
+    "response_types": ["code", "id_token"], 
+    "scope": "openid email profile", 
+    "token_endpoint_auth_method": "client_secret_basic"
+}
+
+```
+
 ### Commands
 ```
 python3 -m venv venv

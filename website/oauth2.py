@@ -14,7 +14,7 @@ ACCESS_TOKEN_PARAMS = None
 API_BASE_URL = 'http://localhost:5000'
 CLIENT_ID = 'hDihqlbEebpIbIjwSFrPkLo4'
 CLIENT_SECRET = 'Cm34ECZ8eIqY98TJ7gI95iw5pm3AfQ6nomHZNZ7Zj75IUO4L'
-CLIENT_KWARGS = { 'scope': 'openid email profile' }
+CLIENT_KWARGS = { 'scope': 'email profile' }
 
 # For automatic configurations
 # CONF_URL = 'https://accounts.google.com/.well-known/openid-configuration'
